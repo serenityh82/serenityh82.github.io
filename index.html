@@ -1,7 +1,83 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title></title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | QR code component</title>
+  <style>
+    body {
+      background-color: hsl(220, 15%, 55%);
+      font-family: Outfit;
+      font-weight: 400;
+      text-align: center;
+      margin-left: 800px;
+      margin-right: 800px;
+      margin-top: 150px;
+    }
+
+    table{
+      background-color: hsl(0, 0%, 100%);
+      border-radius: 20px;
+      font-family: Outfit;
+      height: 500px;
+      margin-top: 50px;
+      padding: 12px;
+      width: 350px;
+      
+    }
+
+    .td1 {
+      align-content: center;
+      vertical-align: top;
+      
+    }
+
+    .td2 {
+      font-family: Outfit;
+      font-weight: 700;
+      font-size: 22px;
+      text-align: center;
+    }
+
+    .td3 {
+      font-family: Outfit;
+      font-weight: 400;
+      color: hsl(220, 15%, 55%);
+      text-align: center;
+    }
+  </style>
 </head>
-<body>Hello world
+<body>
+<table>
+<tr>
+  <td class="td1">
+    <img src="./images/image-qr-code.png" style="border-radius: 20px; object-fit: cover; width: 306px; height: 306px">
+  </td>
+</tr>
+<tr class="td2">
+  <td>
+  Improve your front-end skills 
+  <br>by building projects
+  </td>
+</tr>
+<tr class="td3">
+  <td>
+  Scan the QR code to visit Frontend 
+  <br>Mentor and take your coding skills to 
+  <br>the next level
+  </td>
+</tr>
+  </table>
+  <p>
+  <div>
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  Coded by <a href="#">Serenity Hutchinson</a>.
+  </div>
+  </p>
 </body>
 </html>
